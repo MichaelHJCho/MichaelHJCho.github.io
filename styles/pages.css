@@ -106,7 +106,6 @@ footer ul li a:link, footer ul li a:visited {
 .fadeInBlock {
     opacity:0;
 }
-
 /*end general styles for all pages*/
 
 
@@ -245,17 +244,12 @@ footer ul li a:link, footer ul li a:visited {
   top: 50px;
 }
 
-
-#state {
-  position: absolute;
-  bottom: 0;
+#ring, #state {
+  transform: rotate(90deg);
 }
 
-/*#ring, #state {
-  transform: rotate(90deg);
-}*/
-
 #metalsmithing {
+  /*background-color: red;*/
   top: -325px;
 }
 
