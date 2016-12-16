@@ -251,9 +251,9 @@ footer ul li a:link, footer ul li a:visited {
   bottom: 0;
 }
 
-#ring, #state {
+/*#ring, #state {
   transform: rotate(90deg);
-}
+}*/
 
 #metalsmithing {
   top: -325px;
