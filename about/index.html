@@ -33,12 +33,12 @@
 
     <div class="container">
       <div class="row">
-        <h2 class="col-md-2 col-md-offset-6" id="about">About</h2>
-        <h2 class="col-md-1" id="me">Me</h2>
+        <h2 class="col-md-2 col-md-offset-6 slide-right" id="about">About</h2>
+        <h2 class="col-md-1 slide-right" id="me">Me</h2>
       </div>
       <div class="row">
-        <img class="col-md-7 col-md-offset-1" id="aboutImage" src="../images/about.jpg">
-        <div class="col-md-3" id="description">
+        <img class="col-md-7 col-md-offset-1 slide-left" id="aboutImage" src="../images/about.jpg">
+        <div class="col-md-3 slide-right" id="description">
           <h2 id="hi">Hello!</h2>
           <p>My name is Michael! I was born and raised in Orange County in Southern California, and I'm currently on my fourth year studying computer science at NYU. I like to play pool and watch soccer, and I love cheeseburgers.</p>
         </div>
@@ -57,5 +57,10 @@
 
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.fadethis.js"></script>
+    <script src="../js/jquery.easing.1.3.min.js"></script>
+    <script>
+      $(window).fadeThis({speed: 1000});
+    </script>
   </body>
 </html>

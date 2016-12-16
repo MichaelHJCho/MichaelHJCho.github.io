@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Michael Cho</title>
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href='styles/home.css'/>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto:400,500,700" rel="stylesheet">
   </head>
@@ -12,13 +11,20 @@
       <h1>Michael Cho</h1>
       <hr>
       <ul>
-        <li><a href="./about">About</a></li>
+        <li><a href="./about/">About</a></li>
         <li><a href="./abroad/">Abroad</a></li>
         <li><a href="./studio/">Studio</a></li>
         <li><a href="./design/">Design</a></li>
       </ul>
     </div>
-    <!-- <div class='overlay'></div> -->
     <script src="js/jquery.min.js"></script>
+    <script>
+      $('h1').hide();
+      $('hr').hide();
+      $('ul').hide();
+      $('h1').fadeIn(1000);
+      $('hr').fadeIn(1000);
+      $('ul').fadeIn(2000);
+    </script>
   </body>
 </html>

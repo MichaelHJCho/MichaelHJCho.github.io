@@ -103,6 +103,9 @@ footer ul li a:link, footer ul li a:visited {
   top: -100px;
 }
 
+.fadeInBlock {
+    opacity:0;
+}
 
 /*end general styles for all pages*/
 
