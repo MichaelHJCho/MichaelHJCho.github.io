@@ -245,12 +245,14 @@ footer ul li a:link, footer ul li a:visited {
   top: 50px;
 }
 
-#ring, #state {
-  transform: rotate(90deg);
+
+#state {
+  position: absolute;
+  bottom: 0;
 }
 
+
 #metalsmithing {
-  /*background-color: red;*/
   top: -325px;
 }
 
