@@ -19,3 +19,5 @@ $(function() {
 
     });
 });
+
+baguetteBox.run('.gallery');
