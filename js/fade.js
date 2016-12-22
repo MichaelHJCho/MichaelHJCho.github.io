@@ -20,4 +20,6 @@ $(function() {
     });
 });
 
-baguetteBox.run('.gallery');
+baguetteBox.run('.gallery', {
+  noScrollbars: true
+});
