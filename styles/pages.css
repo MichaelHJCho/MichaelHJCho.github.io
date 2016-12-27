@@ -117,6 +117,7 @@ footer ul li a:link, footer ul li a:visited {
 #aboutImage {
   z-index: -100;
   top: -83px;
+  padding: 0;
 }
 
 
@@ -127,14 +128,15 @@ footer ul li a:link, footer ul li a:visited {
   font-weight: bold;
 }
 
-#about{
-  left: -20px;
-  padding: 0;
+#about {
   color: white;
+  padding-right: 25px;
+  text-align: right;
 }
 
 #description {
   top: 200px;
+  padding: 20px;
 }
 
 #hi {
