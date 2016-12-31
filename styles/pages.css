@@ -104,7 +104,60 @@ footer ul li a:link, footer ul li a:visited {
 }
 
 .fadeInBlock {
-    opacity:0;
+    opacity: 0;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /*background-color: red;*/
+}
+
+ul.img-list li {
+  display: inline-block;
+  position: relative;
+  width: 568px;
+  /*background-color: blue;*/
+}
+
+/*ul.img-list li a {
+  width: 100%;
+  height: 100px;
+}*/
+
+ul.img-list li img {
+  width: 568px;
+  height: 321px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 321px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
 }
 /*end general styles for all pages*/
 

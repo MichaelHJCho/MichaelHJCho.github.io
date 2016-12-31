@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Michael Cho: About</title>
+    <title>Michael Cho: Design</title>
     <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/baguetteBox.min.css">
     <link rel="stylesheet" href='../styles/pages.css'/>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto:400,500,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,8 +25,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./">About</a></li>
-            <li><a href="../blog/">Blog</a></li>
+            <li><a href="../about/">About</a></li>
+            <li><a href="./">Blog</a></li>
             <li><a href="../studio/">Studio</a></li>
             <li><a href="../design/">Design</a></li>
           </ul>
@@ -32,21 +34,38 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="row">
-        <h2 class="col-md-2 col-md-offset-6 col-xs-5 col-xs-offset-1 slide-right" id="about">About</h2>
-        <h2 class="col-md-1 slide-right" id="me">Me</h2>
-      </div>
-      <div class="row">
-        <img class="col-md-7 col-md-offset-1 slide-left" id="aboutImage" src="../images/aboutlow.jpg">
-        <div class="col-md-3 slide-right" id="description">
-          <h2 id="hi">Hello!</h2>
-          <p>My name is Michael! I was born and raised in Orange County in Southern California, and I'm currently on my fourth year studying computer science at NYU. I like to play pool and watch soccer, and I love cheeseburgers.</p>
-        </div>
-      </div>
+    <div class="image">
+      <img src="../images/home2lowcrop.jpg" alt="">
     </div>
 
-    <footer id="about-footer">
+    <div class="container bottom-large-buffer">
+      <div class="row">
+        <h1 class="col-md-2 col-md-offset-5" id="banner-title">Blog</h1>
+      </div>
+
+      <div class="row top-small-buffer bottom-large-buffer">
+        <!-- <div class="hov">
+          <a href="#">
+            <img class="col-md-6 col-md-offset-3" src="../../images/florencelow.jpg">
+            <span class="text-content"><span>Place Name</span></span>
+          </a>
+        </div> -->
+        <div class="col-md-6 col-md-offset-3">
+          <ul class="img-list">
+            <li>
+              <a href="./abroad/index.html">
+                <img src="../images/florencelow.jpg"/>
+                <span class="text-content"><span>Abroad Spring 2015</span></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+
+    <footer>
       <ul>
         <li><a href="https://github.com/MichaelHJCho">Github</a></li>
         <li><a href="https://www.instagram.com/ch0mama/?hl=en">Instragram</a></li>
@@ -55,13 +74,10 @@
         <li><a href="https://www.linkedin.com/in/michael-cho-564894111">LinkedIn</a></li>
       </ul>
     </footer>
-
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/jquery.fadethis.js"></script>
-    <script src="../js/jquery.easing.1.3.min.js"></script>
-    <script>
-      $(window).fadeThis({speed: 1000});
-    </script>
+    <script src="../js/retina.min.js"></script>
+    <!-- <script src="../../js/baguetteBox.min.js"></script> -->
+    <!-- <script src="../../js/fade.js"></script> -->
   </body>
 </html>
