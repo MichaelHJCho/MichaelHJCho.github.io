@@ -59,6 +59,10 @@ footer ul li a:link, footer ul li a:visited {
   margin: 10px;
 }
 
+.navbar-toggle {
+  margin-top: 17px;
+}
+
 .top-buffer {
   margin-top: 150px;
 }
