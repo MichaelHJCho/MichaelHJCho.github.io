@@ -70,6 +70,6 @@ footer ul li a:link, footer ul li a:visited {
 #about-footer {
   width: 100%;
   text-align: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
 }
