@@ -127,7 +127,7 @@ footer ul li a:link, footer ul li a:visited {
 
 /*Studio*/
 
-#banner-title {
+#banner-title, #banner-header {
   position: absolute;
   /*margin: auto;*/
   width: 100%;
@@ -173,13 +173,8 @@ footer ul li a:link, footer ul li a:visited {
   text-align: center;
 }
 
-/*.col-xs-12 {
-  padding: 0;
-}*/
-
 .minor-header {
   text-align: center;
-  /*font-size: 2em;*/
 }
 
 .raise {
@@ -200,13 +195,7 @@ ul.img-list li {
   display: inline-block;
   position: relative;
   width: 384px;
-  /*background-color: blue;*/
 }
-
-/*ul.img-list li a {
-  width: 100%;
-  height: 100px;
-}*/
 
 ul.img-list li img {
   width: 384px;
@@ -239,4 +228,10 @@ span.text-content span {
 
 ul.img-list li:hover span.text-content {
   opacity: 1;
+}
+
+/*abroad*/
+#banner-header {
+  top: 80px;
+  font-size: 1.5em;
 }
