@@ -123,27 +123,36 @@ footer ul li a:link, footer ul li a:visited {
 
 /*Studio*/
 
+#banner-title {
+  position: absolute;
+  /*margin: auto;*/
+  width: 100%;
+  text-align: center;
+  top: 125px;
+  color: white;
+}
+
 #still {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 #pastel {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 #drawing {
   text-align: center;
-  top: 100px;
+  top: 75px;
   position: relative;
 }
 
 #printmaking {
   text-align: center;
   position: relative;
-  top: 75px;
-  font-size: 1.5em;
+  top: 40px;
+  font-size: 1.2em;
 }
 
 #ring, #state {
@@ -153,13 +162,4 @@ footer ul li a:link, footer ul li a:visited {
 #metalsmithing {
   text-align: center;
   font-size: 1.5em;
-}
-
-#banner-title {
-  position: absolute;
-  /*margin: auto;*/
-  width: 100%;
-  text-align: center;
-  top: 150px;
-  color: white;
 }
