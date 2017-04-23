@@ -1,0 +1,47 @@
+/*general styles for all pages*/
+
+body {
+  font-family: 'Raleway', helvetica;
+}
+
+.container {
+  padding: 0;
+}
+
+.container-fluid {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+h2,p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*About*/
+#about {
+  margin-bottom: 0;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#me {
+  margin-top: 5px;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#aboutImage {
+  z-index: -100;
+  top: -121px;
+  padding: 0;
+}
+
+#description {
+  top: -100px;
+}
