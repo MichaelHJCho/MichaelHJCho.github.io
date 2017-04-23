@@ -63,6 +63,10 @@ footer ul li a:link, footer ul li a:visited {
   text-decoration: none;
 }
 
+.top-buffer {
+  padding-top: 50px;
+}
+
 .top-small-buffer {
   padding-top: 30px;
 }
@@ -134,24 +138,24 @@ footer ul li a:link, footer ul li a:visited {
 
 #still {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 25px;
 }
 
 #pastel {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 35px;
 }
 
 #drawing {
   text-align: center;
-  top: 75px;
+  top: 55px;
   position: relative;
 }
 
 #printmaking {
   text-align: center;
   position: relative;
-  top: 40px;
+  top: 30px;
   font-size: 1.2em;
 }
 
@@ -162,4 +166,18 @@ footer ul li a:link, footer ul li a:visited {
 #metalsmithing {
   text-align: center;
   font-size: 1.5em;
+}
+
+/*design*/
+#androidios {
+  text-align: center;
+}
+
+.col-xs-12 {
+  padding: 0;
+}
+
+.minor-header {
+  text-align: center;
+  /*font-size: 2em;*/
 }
