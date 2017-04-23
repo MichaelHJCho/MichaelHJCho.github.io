@@ -9,7 +9,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: red;
   z-index: 100;
 }
 
@@ -24,6 +24,11 @@ p {
 
 img {
   width: 100%;
+}
+
+.image {
+  position: relative;
+  top: -20px;
 }
 
 footer {
@@ -59,6 +64,7 @@ footer ul li a:link, footer ul li a:visited {
 .bottom-large-buffer {
   padding-bottom: 150px;
 }
+
 
 /*About*/
 #about {
@@ -127,6 +133,7 @@ footer ul li a:link, footer ul li a:visited {
   text-align: center;
   position: relative;
   top: 75px;
+  font-size: 1.5em;
 }
 
 #ring, #state {
@@ -135,4 +142,14 @@ footer ul li a:link, footer ul li a:visited {
 
 #metalsmithing {
   text-align: center;
+  font-size: 1.5em;
+}
+
+#banner-title {
+  position: absolute;
+  /*margin: auto;*/
+  width: 100%;
+  text-align: center;
+  top: 230px;
+  color: white;
 }
