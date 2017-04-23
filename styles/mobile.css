@@ -4,6 +4,16 @@ body {
   font-family: 'Raleway', helvetica;
 }
 
+@media (orientation: portrait) {
+  body {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+}
+
 .container {
   padding: 0;
 }
@@ -70,6 +80,6 @@ footer ul li a:link, footer ul li a:visited {
 #about-footer {
   width: 100%;
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
