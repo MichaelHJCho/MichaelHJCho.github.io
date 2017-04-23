@@ -173,11 +173,16 @@ footer ul li a:link, footer ul li a:visited {
   text-align: center;
 }
 
-.col-xs-12 {
+/*.col-xs-12 {
   padding: 0;
-}
+}*/
 
 .minor-header {
   text-align: center;
   /*font-size: 2em;*/
+}
+
+.raise {
+  position: relative;
+  top: -75px;
 }
