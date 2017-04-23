@@ -2,10 +2,7 @@
 
 body {
   font-family: 'Raleway', helvetica;
-}
-
-.container {
-  padding: 0;
+  margin: 0;
 }
 
 .container-fluid {
@@ -67,7 +64,10 @@ footer ul li a:link, footer ul li a:visited {
   z-index: -100;
   top: -147px;
   padding: 0;
+  margin: 0;
+  width: 100%;
 }
+
 #hi {
   font-size: 3em;
 }
