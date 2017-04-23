@@ -28,6 +28,7 @@ img {
 
 footer {
   padding-bottom: 17px;
+  text-align: center;
 }
 
 footer ul {
@@ -52,7 +53,11 @@ footer ul li a:link, footer ul li a:visited {
 }
 
 .top-large-buffer {
-  padding-top: 70px;
+  padding-top: 150px;
+}
+
+.bottom-large-buffer {
+  padding-bottom: 150px;
 }
 
 /*About*/
@@ -90,7 +95,7 @@ footer ul li a:link, footer ul li a:visited {
 
 #about-footer {
   width: 100%;
-  text-align: center;
+  /*text-align: center;*/
   bottom: 0;
 }
 
@@ -110,4 +115,24 @@ footer ul li a:link, footer ul li a:visited {
 #pastel {
   text-align: center;
   padding-top: 50px;
+}
+
+#drawing {
+  text-align: center;
+  top: 100px;
+  position: relative;
+}
+
+#printmaking {
+  text-align: center;
+  position: relative;
+  top: 75px;
+}
+
+#ring, #state {
+  transform: rotate(90deg);
+}
+
+#metalsmithing {
+  text-align: center;
 }
