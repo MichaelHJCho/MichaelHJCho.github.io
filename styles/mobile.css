@@ -47,6 +47,14 @@ footer ul li a:link, footer ul li a:visited {
   text-decoration: none;
 }
 
+.top-small-buffer {
+  padding-top: 30px;
+}
+
+.top-large-buffer {
+  padding-top: 50px;
+}
+
 /*About*/
 #about {
   margin-bottom: 0;
@@ -93,11 +101,13 @@ footer ul li a:link, footer ul li a:visited {
 }
 
 /*Studio*/
-.top-small-buffer {
-  padding-top: 30px;
-}
 
 #still {
   text-align: center;
   padding-top: 40px;
+}
+
+#pastel {
+  text-align: center;
+  padding-top: 50px;
 }
