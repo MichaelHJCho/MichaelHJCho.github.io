@@ -63,6 +63,14 @@ footer ul li a:link, footer ul li a:visited {
   text-decoration: none;
 }
 
+#credit {
+  font-family: 'Raleway', Helvetica;
+  position: relative;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
 .top-buffer {
   padding-top: 50px;
 }
@@ -120,13 +128,21 @@ footer ul li a:link, footer ul li a:visited {
 #about-footer {
   width: 100%;
   /*text-align: center;*/
-  bottom: 0;
+  bottom: 20px;
 }
 
 @media (orientation: portrait) {
   #about-footer {
     position: fixed;
   }
+}
+
+#credit-footer {
+  font-family: 'Raleway', Helvetica;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 /*Studio*/
