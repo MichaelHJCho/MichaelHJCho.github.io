@@ -75,6 +75,10 @@ footer ul li a:link, footer ul li a:visited {
   padding-top: 150px;
 }
 
+.bottom-buffer {
+  padding-bottom: 75px;
+}
+
 .bottom-large-buffer {
   padding-bottom: 150px;
 }
@@ -235,4 +239,8 @@ ul.img-list li:hover span.text-content {
   /*top: px;*/
   text-align: left;
   font-size: 1.5em;
+}
+
+.side-text, #travel, .full {
+  text-align: center;
 }
