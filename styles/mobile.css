@@ -132,7 +132,7 @@ footer ul li a:link, footer ul li a:visited {
 }
 
 @media (orientation: portrait) {
-  #about-footer {
+  #about-footer, #credit-footer {
     position: fixed;
   }
 }
