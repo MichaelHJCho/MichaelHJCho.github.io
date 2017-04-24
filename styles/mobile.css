@@ -260,3 +260,7 @@ ul.img-list li:hover span.text-content {
 .side-text, #travel, .full {
   text-align: center;
 }
+
+.full {
+  font-family: 'Raleway';
+}
