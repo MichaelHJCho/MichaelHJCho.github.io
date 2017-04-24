@@ -194,12 +194,12 @@ ul.img-list {
 ul.img-list li {
   display: inline-block;
   position: relative;
-  width: 384px;
+  width: 320px;
 }
 
 ul.img-list li img {
-  width: 384px;
-  height: 216px;
+  width: 320px;
+  height: 180px;
 }
 
 span.text-content {
@@ -207,7 +207,7 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 216px;
+  height: 180px;
   left: 0;
   position: absolute;
   top: 0;
@@ -232,6 +232,7 @@ ul.img-list li:hover span.text-content {
 
 /*abroad*/
 #banner-header {
-  top: 80px;
+  /*top: px;*/
+  text-align: left;
   font-size: 1.5em;
 }
