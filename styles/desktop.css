@@ -344,6 +344,6 @@ ul.img-list li:hover span.text-content {
   font-weight: bold;
 }
 
-#androidios {
+#androidios, #web {
   text-align: center;
 }
