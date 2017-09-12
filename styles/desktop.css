@@ -14,10 +14,14 @@ p {
   font-size: 1.1em;
 }
 
-#about-footer {
+/*#about-footer {
     position: absolute;
     bottom: 25px;
     padding: 0;
+}*/
+
+#about-container {
+  padding-bottom: 30px;
 }
 
 #credit {
@@ -25,15 +29,16 @@ p {
   font-family: 'Raleway', Helvetica;
   bottom: 25px;
   padding-right: 20px;
+  text-align: right;
 }
 
-#credit-footer {
+/*#credit-footer {
   position: relative;
   top: 25px;
   font-family: 'Raleway', Helvetica;
   padding-right: 20px;
   float: right;
-}
+}*/
 
 footer {
   padding-bottom: 25px;
