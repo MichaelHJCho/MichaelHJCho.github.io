@@ -193,7 +193,7 @@ footer ul li a:link, footer ul li a:visited {
 }
 
 .minor-header {
-  text-align: center;
+  text-align: left;
 }
 
 .raise {
@@ -256,7 +256,11 @@ ul.img-list li:hover span.text-content {
   font-size: 1.5em;
 }
 
-.side-text, #travel, .full {
+.side-text {
+  text-align: left;
+}
+
+#travel, .full {
   text-align: center;
 }
 

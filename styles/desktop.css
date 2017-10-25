@@ -260,7 +260,7 @@ ul.img-list li:hover span.text-content {
 }
 
 .minor-header {
-  text-align: center;
+  text-align: left;
   font-size: 2em;
   font-weight: bold;
   /*position: relative;*/
@@ -269,7 +269,7 @@ ul.img-list li:hover span.text-content {
 
 .side-text {
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 
 #travel {
