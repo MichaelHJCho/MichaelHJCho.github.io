@@ -7,7 +7,6 @@ body {
 }
 
 
-
 h3 {
   line-height: 1.6;
 }
@@ -30,9 +29,12 @@ p {
 #credit {
   float: right;
   font-family: 'Raleway', Helvetica;
-  bottom: 25px;
+  /* bottom: 25px;
   padding-right: 20px;
-  text-align: right;
+  text-align: right; */
+  margin: 0;
+  position: relative;
+  bottom: 5px;
 }
 
 /*#credit-footer {
@@ -44,13 +46,16 @@ p {
 }*/
 
 footer {
-  padding-bottom: 25px;
+  padding: 40px;
+  padding-left: 0;
+  background-color: white;
 }
 
 footer ul {
-    padding: 0;
-    margin: 0;
-    float: left;
+  position: relative;
+  bottom: 5px;
+  padding: 0;
+  float: left;
 }
 
 footer ul li {
@@ -79,7 +84,7 @@ footer ul li a:link, footer ul li a:visited {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 2160px;
   margin: auto;
 }
 
@@ -224,6 +229,10 @@ ul.img-list li:hover span.text-content {
   font-size: 4em;
   top: 50px;
   font-weight: bold;
+}
+
+#me {
+  text-align: left;
 }
 
 #about {
