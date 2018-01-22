@@ -6,6 +6,8 @@ body {
   background-color: #EEEEEE;
 }
 
+
+
 h3 {
   line-height: 1.6;
 }
@@ -74,6 +76,11 @@ footer ul li a:link, footer ul li a:visited {
     top: 0;
     margin: 0;
     width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
 }
 
 .nav li, .navbar-brand {
@@ -184,6 +191,18 @@ span.text-content span {
 
 ul.img-list li:hover span.text-content {
   opacity: 1;
+}
+
+#banner-container {
+  position: relative;
+}
+
+#banner-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  color: white;
+  font-weight: bold;
 }
 /*end general styles for all pages*/
 
