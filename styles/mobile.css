@@ -211,8 +211,53 @@ footer ul li a:link, footer ul li a:visited {
 }
 
 /*design*/
-#androidios, #web {
+
+#intro-text {
   text-align: center;
+  font-size: 24px;
+  margin-bottom: 175px;
+}
+
+.white, .grey {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.white {
+  background: white;
+}
+
+.white-container {
+  height: 100%;
+}
+
+.left-section {
+  height: 200px;
+}
+
+.project-name {
+  padding-top: 50px;
+  color: #303030;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.project-description {
+  color: #303030;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 25px;
+  clear: left;
+}
+
+.project-name:link, .project-name:visited {
+  transition: all .4s ease;
+}
+
+.project-name:active {
+  text-decoration: none;
+  color: #F58FCB;
+  transition: all .4s ease;
 }
 
 .minor-header {
