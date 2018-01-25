@@ -134,12 +134,22 @@ footer ul li a:link, footer ul li a:visited {
 }
 
 #resume {
-  color: #F58FCB;
+  color: white;
+  background: #303030;
   text-decoration: none;
+  font-size: 1em;
+  padding: 17px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 4px;
+  transition: all .4s ease;
+  position: relative;
+  top: 24px;
 }
 
 #resume:hover {
-  color: black;
+  background: #F58FCB;
+  transition: all .4s ease;
 }
 
 @media (orientation: portrait) {
@@ -259,12 +269,38 @@ footer ul li a:link, footer ul li a:visited {
 
 .project-name:hover {
   text-decoration: none;
+  color: #F58FCB;
 }
 
 .project-name:active {
   text-decoration: none;
-  color: #F58FCB;
+  color: #303030;
   transition: all .1s ease;
+}
+
+.button-container {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.view-project {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: #F58FCB;
+  padding: 12px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 4px;
+  transition: all .4s ease;
+}
+
+.view-project:hover {
+  text-decoration: none;
+  color: white;
+  background: #303030;
+  transition: all .4s ease;
 }
 
 .minor-header {

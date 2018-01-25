@@ -27,16 +27,6 @@ p {
   padding-bottom: 30px;
 }
 
-#resume {
-  color: #F58FCB;
-  text-decoration: none;
-  font-size: 1.5em;
-}
-
-#resume:hover {
-  color: #303030;
-}
-
 #credit {
   float: right;
   font-family: 'Raleway', Helvetica;
@@ -221,7 +211,7 @@ ul.img-list li:hover span.text-content {
 
 /*About page elements*/
 
-#aboutImage, #about, #me, #description {
+#aboutImage, #about, #me, #description, #resume {
   position: relative;
 }
 
@@ -250,8 +240,26 @@ ul.img-list li:hover span.text-content {
 }
 
 #description {
-  top: 200px;
+  top: 100px;
   padding: 20px;
+}
+
+#resume {
+  color: white;
+  background: #303030;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 17px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 4px;
+  transition: all .4s ease;
+  top:42px;
+}
+
+#resume:hover {
+  background: #F58FCB;
+  transition: all .4s ease;
 }
 
 #hi {
@@ -429,7 +437,7 @@ ul.img-list li:hover span.text-content {
 
 .vertical-center, .vertical-center-edu, .vertical-center-cloud, .vertical-center-forefront, .vertical-center-fantasy {
   /* background: green; */
-  height: 30%;
+  height: 40%;
   width: 100%;
   vertical-align: middle;
   display: inline-block;
@@ -469,10 +477,34 @@ ul.img-list li:hover span.text-content {
 }
 
 .project-description {
-  margin-top:48px;
+  margin-top:16px;
   font-family: Roboto, sans-serif;
   font-size: 16pt;
   white-space: normal;
+}
+
+.button-container {
+  margin-top: 48px;
+}
+
+.view-project {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: #F58FCB;
+  padding: 17px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 4px;
+  transition: all .4s ease;
+}
+
+.view-project:hover {
+  text-decoration: none;
+  background: #303030;
+  color: white;
+  transition: all .4s ease;
 }
 
 #fantasy {
