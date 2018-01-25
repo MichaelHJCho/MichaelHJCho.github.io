@@ -264,21 +264,6 @@ footer ul li a:link, footer ul li a:visited {
   clear: left;
 }
 
-.project-name:link, .project-name:visited {
-  transition: all .4s ease;
-}
-
-.project-name:hover {
-  text-decoration: none;
-  color: #F58FCB;
-}
-
-.project-name:active {
-  text-decoration: none;
-  color: #303030;
-  transition: all .1s ease;
-}
-
 .button-container {
   margin-top: 32px;
   margin-bottom: 32px;
