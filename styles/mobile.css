@@ -225,6 +225,8 @@ footer ul li a:link, footer ul li a:visited {
 
 .white {
   background: white;
+  width: 100%;
+  margin: 0;
 }
 
 .white-container {
