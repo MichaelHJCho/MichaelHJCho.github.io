@@ -480,7 +480,7 @@ ul.img-list li:hover span.text-content {
   margin-top: 48px;
 }
 
-.view-project {
+.view-project:link, .view-project:visited {
   text-align: center;
   font-size: 16px;
   font-weight: 600;
