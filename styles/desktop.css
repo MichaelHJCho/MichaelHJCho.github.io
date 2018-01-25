@@ -463,17 +463,10 @@ ul.img-list li:hover span.text-content {
   height: 50%;
 }
 
-.project-name:link, .project-name:visited {
+.project-name {
   color: #303030;
   font-weight: 700;
   font-size: 64px;
-  transition: all .4s ease;
-}
-
-.project-name:hover {
-  text-decoration: none;
-  color: #F58FCB;
-  transition: all .4s ease;
 }
 
 .project-description {
