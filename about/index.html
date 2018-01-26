@@ -13,24 +13,21 @@
         background-color: white;
       }
 
-      footer {
-        bottom: 0;
-        padding: 0;
-      }
-
       @media screen and (min-width: 993px) {
         footer {
           position: absolute;
           bottom: 0;
           padding: 0;
+          width: 100%;
+          max-width: 1440px;
+          bottom: 50px;
         }
 
         #credit {
-          position: fixed;
+          position: absolute;
           bottom: auto;
-          text-align: center;
-          bottom: 16px;
-          right: 30px;
+          /* text-align: right; */
+          right: 40px;
         }
       }
     </style>
@@ -50,7 +47,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./">About</a></li>
+            <li><a style="color: #F58FCB;" href="./">About</a></li>
             <li><a href="../design/">Design</a></li>
             <li><a href="../studio/">Studio</a></li>
             <li><a href="../blog/">Blog</a></li>
@@ -61,31 +58,31 @@
 
     <div class="container" id="about-container">
       <div class="row">
-        <h2 class="col-md-2 col-md-offset-6 slide-right" id="about">About</h2>
+        <h2 class="col-md-2 col-md-offset-7 slide-right" id="about">About</h2>
         <h2 class="col-md-1 slide-right" id="me">Me</h2>
       </div>
       <div class="row">
-        <img class="col-md-7 col-md-offset-1 col-xs-12 slide-left" id="aboutImage" src="../images/aboutlow.jpg">
+        <img class="col-md-9 col-xs-12 slide-left" id="aboutImage" src="../images/aboutlow.jpg">
         <div class="col-md-3 slide-right" id="description">
           <h2 id="hi">Hello!</h2>
           <p>My name is Michael! I was born and raised in Orange County in Southern California, and I majored in computer science while minoring in web design and studio art at NYU. Although I coded throughout college, I have experience in designining interfaces using Sketch, and I'm more interested in working with UI/UX. I also love cheeseburgers.</p>
           <a id="resume" href="../resume/">Résumé</a>
         </div>
       </div>
+
+      <footer>
+        <ul>
+          <li><a href="https://github.com/MichaelHJCho">Github</a></li>
+          <li><a href="https://www.instagram.com/ch0mama/?hl=en">Instagram</a></li>
+          <li><a href="https://twitter.com/CH0mama">Twitter</a></li>
+          <li><a href="mailto:michaelcho562@gmail.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/michael-cho-564894111">LinkedIn</a></li>
+        </ul>
+        <p id="credit">Made by Michael Cho</p>
+      </footer>
     </div>
 
-    <!-- <footer id="about-footer"> -->
-    <footer>
-      <ul>
-        <li><a href="https://github.com/MichaelHJCho">Github</a></li>
-        <li><a href="https://www.instagram.com/ch0mama/?hl=en">Instagram</a></li>
-        <li><a href="https://twitter.com/CH0mama">Twitter</a></li>
-        <li><a href="mailto:michaelcho562@gmail.com">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/michael-cho-564894111">LinkedIn</a></li>
-      </ul>
-      <!-- <p id="credit-footer">Made by Michael Cho</p> -->
-      <p id="credit">Made by Michael Cho</p>
-    </footer>
+
 
 
     <script src="../js/jquery.min.js"></script>

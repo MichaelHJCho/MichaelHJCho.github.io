@@ -23,18 +23,9 @@ p {
   font-weight: 300;
 }
 
-.current:link, .current:visited {
-  color: #F58FCB;
-}
-
-/*#about-footer {
-    position: absolute;
-    bottom: 25px;
-    padding: 0;
-}*/
-
 #about-container {
   padding-bottom: 30px;
+
 }
 
 #credit {
@@ -63,14 +54,15 @@ footer {
 }
 
 footer ul {
-  position: relative;
-  bottom: 5px;
+  position: absolute;
+  /* position: relative; */
+  /* bottom: 5px; */
   padding: 0;
   float: left;
 }
 
 footer ul li {
-  margin: 20px;
+  margin-right: 40px;
   list-style: none;
   display: inline;
 }
@@ -87,13 +79,20 @@ footer ul li a:hover, footer ul li a:active {
 }
 
 .container-fluid {
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0; */
   width: 100%;
+  max-width: 1440px;
+  margin: auto;
   background-color: white;
-  z-index: 100;
+  /* z-index: 100; */
 }
 
+.navbar {
+  width: 100%;
+  background: white;
+  margin-bottom: 0;
+}
 .container {
     top: 0;
     width: 100%;
@@ -361,34 +360,35 @@ ul.img-list li:hover span.text-content {
 
 /*studio art styles*/
 
-#studio {
-  font-size: 3em;
+/* #studio {
+  font-size: 64px;
   text-align: center;
   margin: 300px;
   margin-bottom: 400px;
-}
+} */
 
 #still, #pastel, #drawing, #printmaking, #metalsmithing {
   text-align: center;
-  font-size: 2em;
+  font-size: 32pt;
   font-weight: 300;
   position: relative;
 }
 
 #still {
-  top: 120px;
+  top: 200px;
 }
 
 #pastel {
-  top: 90px;
+  top: 180px;
 }
 
 #drawing {
-  top: 70px;
+  top: 280px;
+  font-size: 48pt;
 }
 
 #printmaking {
-  top: 50px;
+  top: 125px;
 }
 
 #ring, #state {
@@ -477,17 +477,17 @@ ul.img-list li:hover span.text-content {
 
 .vertical-center-cloud {
   /* background: yellow; */
-  height: 42%;
+  height: 45%;
 }
 
 .vertical-center-forefront {
   /* background: yellow; */
-  height: 50%;
+  height: 60%;
 }
 
 .vertical-center-fantasy {
   /* background: purple; */
-  height: 50%;
+  height: 58%;
 }
 
 .project-name {

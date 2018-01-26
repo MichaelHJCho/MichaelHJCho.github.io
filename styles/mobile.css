@@ -45,14 +45,17 @@ img {
 }
 
 footer {
+  margin: 0;
   padding: 17px;
   text-align: center;
   background-color: white;
+  list-style: none;
 }
 
 footer ul {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 footer ul li {
