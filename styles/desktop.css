@@ -19,6 +19,10 @@ p , a {
   color: #303030;
 }
 
+p {
+  font-weight: 300;
+}
+
 .current:link, .current:visited {
   color: #F58FCB;
 }

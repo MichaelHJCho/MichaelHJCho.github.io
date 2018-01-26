@@ -21,6 +21,10 @@ p, a {
   font-weight: 400;
 }
 
+p {
+  font-weight: 300;
+}
+
 img {
   width: 100%;
 }
