@@ -6,8 +6,24 @@
     <link rel="stylesheet" href="../styles/bootstrap.min.css">
     <link rel="stylesheet" media="only screen and (max-width: 992px)" href="../styles/mobile.css">
     <link rel="stylesheet" media="only screen and (min-width: 993px)" href="../styles/desktop.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto:400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:700,800|Merriweather:300,400" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+      @media screen and (min-width: 993px) {
+        footer {
+          position: absolute;
+          bottom: 0;
+          padding: 0;
+          background: white;
+        }
+
+        #credit {
+          position: fixed;
+          bottom: 16px;
+          right: 30px;
+        }
+      }
+    </style>
   </head>
   <body>
 
@@ -35,7 +51,7 @@
 
     <div class="container" id="about-container">
       <div class="row">
-        <img class="col-md-6 col-md-offset-3 col-xs-12 top-small-buffer" src="../images/resume.jpg">
+        <img class="col-md-6 col-md-offset-3 col-xs-12 top-small-buffer bottom-buffer" src="../images/resume.jpg">
       </div>
     </div>
 

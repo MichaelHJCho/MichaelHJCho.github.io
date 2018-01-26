@@ -1,7 +1,8 @@
 /*general styles for all pages*/
 
 body {
-  font-family: 'Raleway', helvetica;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 800;
   margin: 0;
   background-color: #EEEEEE;
 }
@@ -11,10 +12,15 @@ h3 {
   line-height: 1.6;
 }
 
-p {
-  font-family: 'Roboto', helvetica;
+p , a {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
   font-size: 1em;
   color: #303030;
+}
+
+.current:link, .current:visited {
+  color: #F58FCB;
 }
 
 /*#about-footer {
@@ -29,7 +35,7 @@ p {
 
 #credit {
   float: right;
-  font-family: 'Raleway', Helvetica;
+  font-family: 'Merriweather', sans-serif;
   /* bottom: 25px;
   padding-right: 20px;
   text-align: right; */
@@ -68,6 +74,12 @@ footer ul li {
 footer ul li a:link, footer ul li a:visited {
   color: #303030;
   text-decoration: none;
+  transition: all .25s ease;
+}
+
+footer ul li a:hover, footer ul li a:active {
+  color: #F58FCB;
+  transition: all .25s ease;
 }
 
 .container-fluid {
@@ -89,6 +101,19 @@ footer ul li a:link, footer ul li a:visited {
 .nav li, .navbar-brand {
   font-size: 1.3em;
   margin: 10px;
+}
+.navbar-brand:link, .navbar-brand:visited {
+  color: #303030;
+}
+
+#navbar ul li a:link, #navbar ul li a:visited {
+  color: #303030;
+  transition: all .25s ease;
+}
+
+#navbar ul li a:hover, #navbar ul li a:active {
+  color: #F58FCB;
+  transition: all .25s ease;
 }
 
 .navbar-toggle {
@@ -253,13 +278,13 @@ ul.img-list li:hover span.text-content {
   padding-left: 24px;
   padding-right: 24px;
   border-radius: 4px;
-  transition: all .4s ease;
+  transition: all .25s ease;
   top:42px;
 }
 
 #resume:hover {
   background: #F58FCB;
-  transition: all .4s ease;
+  transition: all .25s ease;
 }
 
 #hi {
@@ -297,7 +322,6 @@ ul.img-list li:hover span.text-content {
   position: relative;
   text-align: center;
   font-size: 1.5em;
-  font-family: Raleway, helvetica;
   top: 50px;
   margin-bottom: 100px;
   font-weight: bold;
@@ -327,7 +351,6 @@ ul.img-list li:hover span.text-content {
 .full {
   width: 100%;
   text-align: center;
-  font-family: Raleway;
 }
 
 /*end abroad element styles*/
@@ -336,7 +359,6 @@ ul.img-list li:hover span.text-content {
 
 #studio {
   font-size: 3em;
-  font-weight: bold;
   text-align: center;
   margin: 300px;
   margin-bottom: 400px;
@@ -350,7 +372,7 @@ ul.img-list li:hover span.text-content {
 }
 
 #still {
-  top: 130px;
+  top: 120px;
 }
 
 #pastel {
@@ -389,6 +411,7 @@ ul.img-list li:hover span.text-content {
 #intro-text {
   text-align: center;
   margin-bottom: 300px;
+  font-weight: 700;
 }
 
 .white {
@@ -416,7 +439,7 @@ ul.img-list li:hover span.text-content {
   height: 100%;
   width: 50%;
   /* border: solid 4px pink; */
-  display: inline-block;
+  /* display: inline-block; */
   white-space: nowrap;
 }
 
@@ -471,7 +494,6 @@ ul.img-list li:hover span.text-content {
 
 .project-description {
   margin-top:16px;
-  font-family: Roboto, sans-serif;
   font-size: 16pt;
   white-space: normal;
 }
@@ -483,21 +505,19 @@ ul.img-list li:hover span.text-content {
 .view-project:link, .view-project:visited {
   text-align: center;
   font-size: 16px;
-  font-weight: 600;
   color: white;
-  background: #F58FCB;
+  background: #303030;
   padding: 17px;
   padding-left: 24px;
   padding-right: 24px;
   border-radius: 4px;
-  transition: all .4s ease;
+  transition: all .25s ease;
 }
 
 .view-project:hover {
   text-decoration: none;
-  background: #303030;
-  color: white;
-  transition: all .4s ease;
+  background: #F58FCB;
+  transition: all .25s ease;
 }
 
 #fantasy {

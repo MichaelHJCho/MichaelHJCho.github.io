@@ -1,10 +1,11 @@
 body {
-  font-family: 'Raleway', helvetica;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 800;
   margin: 0;
 }
 
 p {
-  font-family: 'Roboto', helvetica;
+  font-family: 'Merriweather', serif;
 }
 
 #container {
@@ -15,10 +16,9 @@ p {
 }
 
 h1 {
-  color: black;
+  color: #303030;
   text-align: center;
   font-size: 4em;
-  font-weight: 300;
   margin-bottom: 10px;
 }
 
@@ -29,17 +29,18 @@ hr {
 
 a:link, a:visited {
   text-decoration: none;
-  color: black;
+  color: #303030;
   padding: 10px;
   margin: 10px;
-  transition: all .4s ease;
+  transition: all .25s ease;
+  font-family: 'Merriweather', serif;
 }
 
 a:hover {
   color: white;
-  background-color: black;
+  background-color: #F58FCB;
   border-radius: 2px;
-  transition: all .4s ease;
+  transition: all .25s ease;
 }
 
 ul {
@@ -53,7 +54,7 @@ ul li {
 
 @media screen and (max-width: 992px) {
   h1 {
-    color: black;
+    color: #303030;
     text-align: center;
     font-size: 1.5em;
     font-weight: 300;
@@ -62,13 +63,13 @@ ul li {
 
   a:link, a:visited {
     text-decoration: none;
-    color: black;
+    color: #303030;
     padding: 10px;
   }
 
   a:hover {
     color: white;
-    background-color: black;
+    background-color: #F58FCB;
     border-radius: 2px;
   }
 
