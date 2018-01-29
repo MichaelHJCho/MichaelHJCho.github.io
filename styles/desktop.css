@@ -235,6 +235,12 @@ ul.img-list li:hover span.text-content {
   color: white;
   font-weight: bold;
 }
+
+.hero-text {
+  text-align: center;
+  font-size: 72pt;
+  font-weight: 800;
+}
 /*end general styles for all pages*/
 
 /*About page elements*/
