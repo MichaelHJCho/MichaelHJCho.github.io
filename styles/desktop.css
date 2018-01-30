@@ -451,7 +451,7 @@ ul.img-list li:hover span.text-content {
   float: left;
   height: 100%;
   width: 50%;
-  /* border: solid 4px pink; */
+  /* border: solid 4px red; */
   display: inline-block;
   white-space: nowrap;
 }
@@ -537,9 +537,7 @@ ul.img-list li:hover span.text-content {
   font-size: 60px;
 }
 
-#edu-hero-padding {
-    padding-top: 4%;;
-}
+
 
 #experiences-text {
   position: relative;
@@ -558,4 +556,17 @@ ul.img-list li:hover span.text-content {
   font-size: 12pt;
   font-weight: 300;
   margin-top: 0;
+}
+
+.vertical-center-edu-banner {
+  height: 100vh;
+  /* background: pink; */
+}
+
+#vertical-hero {
+  height: 20%;
+}
+
+#vertical-hero-edu {
+  height: 65%;
 }
