@@ -330,11 +330,13 @@ footer ul li a:hover, footer ul li a:active {
   text-align: center;
   font-size: 48pt;
   font-weight: 800;
+  /* padding-bottom: 20px; */
+  margin: 0;
 }
 
 .mobile-hero {
   padding: 0;
-  height: 100px;
+  height: 90px;
 }
 
 #whiteboard-row {
