@@ -39,7 +39,7 @@ img {
     position: absolute;
     width: 100%; height:100%;
     top:0; left:0;
-    background:rgba(0,0,0,0.4);
+    background:rgba(0,0,0,0.25);
     transition: all 1s;
     -webkit-transition: all 1s;
 }
@@ -421,6 +421,15 @@ ul.img-list li:hover span.text-content {
 }
 
 /*abroad*/
+
+#abroad-banner-text {
+  position: absolute;
+  top: 30%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16pt;
+}
 
 .side-text {
   text-align: left;
