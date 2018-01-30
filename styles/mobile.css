@@ -335,8 +335,12 @@ footer ul li a:hover, footer ul li a:active {
 }
 
 .mobile-hero {
-  padding: 0;
+  margin-top: 8px;
   height: 90px;
+}
+
+#edu-hero {
+  padding-top: 0;
 }
 
 #whiteboard-row {
@@ -371,6 +375,8 @@ footer ul li a:hover, footer ul li a:active {
 #improvement {
   padding-bottom: 0;
 }
+
+
 
 /*blog*/
 ul.img-list {

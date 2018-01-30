@@ -558,15 +558,14 @@ ul.img-list li:hover span.text-content {
   margin-top: 0;
 }
 
-.vertical-center-edu-banner {
+.vertical-center-banner {
   height: 100vh;
-  /* background: pink; */
 }
 
 #vertical-hero {
   height: 20%;
 }
 
-#vertical-hero-edu {
+#vertical-hero-pic {
   height: 65%;
 }
