@@ -537,6 +537,10 @@ ul.img-list li:hover span.text-content {
   font-size: 60px;
 }
 
+#edu-hero-padding {
+    padding-top: 4%;;
+}
+
 #experiences-text {
   position: relative;
   top: -350px;
