@@ -119,6 +119,10 @@ footer ul li a:hover, footer ul li a:active {
   padding-bottom: 150px;
 }
 
+.mobile-top-padding {
+  padding-top: 100px;
+}
+
 /*About*/
 #about {
   margin-bottom: 0;
@@ -331,6 +335,29 @@ footer ul li a:hover, footer ul li a:active {
 .mobile-hero {
   padding: 0;
   height: 100px;
+}
+
+#whiteboard-row {
+  margin-top: 200px;
+}
+
+#familiar-mobile {
+  padding-top: 0px;
+}
+
+#side-text {
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.who {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#improvement {
+  padding-bottom: 0;
 }
 
 /*blog*/
